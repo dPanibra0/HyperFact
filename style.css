@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.content {
+  width: 100%;
+  height: 80vh;
+  background-color: #181A1B;
+  /* background-image: url("./images/cosmos.jpg"); */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentTitle{
+    text-align: center;
+    color: azure;
+    display: inline-block;
+    width: 100%;
+    /* background-color: rgba(64, 133, 64, 0.404); */
+}
+.t{
+    display:inline;
+    margin: 0;
+    padding: 0;
+    font-size: 5rem;
+    color: rgb(64, 133, 133);
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.fact{
+    margin-left: -5px;
+    font-style: italic;
+    color: azure;
+    transform: translateX(200px);
+}
+.bxb{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #00AFF0;
+}
+.x{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-style: italic;
+    color: azure;
+    margin-right: 3px;
+}
+.bright{
+    color: #606062;
+}
+.powered{
+    transform: translateY(100px);
+    opacity: 0;
+    animation: powered 2s forwards;
+    animation-delay: 2s;
+}
+@keyframes powered{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(-5px);
+        opacity: 1;
+    }
+}
